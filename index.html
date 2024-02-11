@@ -1,0 +1,49 @@
+
+<html>
+    <head>
+        <meta charset="viewport"
+         content="width=device-width,initial-scale=1.0">
+        <title>
+            AI Assistance
+        </title>
+        <link rel="stylesheet"
+        href="style.css">
+    </head>
+    <body>
+      <script>
+        function pass() {
+            var username= document.getElementById("username").value;
+            var password= document.getElementById("password").value;
+            var correctusername= "Admin";
+            var correctpassword= "Admin@123";
+            if (username === correctusername && password === correctpassword)
+            {
+                alert("Click  OK and  Welcome to the world of AI");
+                window.location.href= "bot.html";
+                
+            }
+            else {
+                alert("Wrong password and ID");
+                
+            }
+            return false;
+        }
+      </script>
+        
+        <div class="login-container">
+        
+        <h1>Login Page</h1>
+        <form onsubmit= "return pass()" action="bot.html">
+        <label for="Uname">User Id</label>
+        <input type="text" id="username" name="username" required >
+        <label for="password">Password</label>
+        <input type="password" name="passwors" id="password" required><br>
+        <button type="submit">Submit</button>     
+        </form>
+        <p
+        class="register-link"> Don't have an account <a href="registration.html">Register Here</a></p>
+        </div>
+        
+     
+    </body>
+</html>
