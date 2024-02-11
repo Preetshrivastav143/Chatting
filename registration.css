@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+    font-weight: bolds;
+    border-radius: 40px 40px 40px 40px;
+
+}
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+.submit {
+    width: 50%;
+    background-color: darkslategrey;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+label {
+    text-align: center;
+    text-size-adjust: 20px;
+    color: #050639d2;
+    font-size: large;
+    font-weight: bold;
+}
+
+.form   {
+    width: 500px;
+    background-color: #e45f5f ;
+    padding: 0 30px;
+    display: grid;
+    gap: 0px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.otpverify {
+    width: 100%;
+    display: flex;
+    gap: 8px;  
+}
+
+.otp_inp {
+    max-width: 300px ;
+    -webkit-box-align: 200px;
+}
+
+.btn1 {
+    padding: 10 px;
+    background-color: #032416;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    width: 200px;
+    color: aliceblue;
+
+}
+.btn {
+    padding: 10 px;
+    background-color: #82eec1;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 300px;
+
+}
